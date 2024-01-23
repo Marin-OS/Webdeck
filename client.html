@@ -8,7 +8,9 @@
     <script src="/socket.io/socket.io.js"></script>
 </head>
 <body>
-    <button onclick="exec('C:/Windows/explorer.exe')">Explorer Öffnen</button>
+    <button onclick="exec('/webdeck/dateimanager.sh')">Dateimanager öffnen</button>
+    <button onclick="exec('/webdeck/logout.sh')">Abmelden</button>
+    
 </body>
 <script>
     const socket = io()
