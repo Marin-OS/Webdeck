@@ -1,1 +1,0 @@
-logout -h now
